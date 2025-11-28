@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FastShip - Dossiê Estratégico de BI</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Nunito:wght@300;400;600&family=Sora:wght@600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container nav-flex">
+      <div class="nav-logo"><i class="fas fa-shipping-fast"></i> FASTSHIP</div>
+      <ul class="nav-links">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#cenario">Cenário</a></li>
+        <li><a href="#niveis">Estratégia</a></li>
+        <li><a href="#dashboards">Dados</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home" class="hero-section">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="purple-bar hero-bar"></div>
+        <div>
+          <h2 class="hero-subtitle">DOSSIÊ ESTRATÉGICO</h2>
+          <h1 class="hero-title">BI, GOVERNANÇA E<br>ARQUITETURA DE DADOS</h1>
+          <p class="hero-desc">FastShip — Transformando Dados em Decisões Estratégicas</p>
+          <a href="#cenario" class="website-link">Iniciar Apresentação <i class="fas fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-dark">
+    <div class="container grid-2 align-center">
+      <div class="content-box-white">
+        <div class="header-left">
+          <div class="purple-bar small"></div>
+          <div>
+            <h3 class="label-title">CONCEITOS DE</h3>
+            <h2 class="text-dark">BUSINESS INTELLIGENCE</h2>
+          </div>
+        </div>
+        <p class="text-dark">O Business Intelligence (BI) é um conjunto integrado de práticas, tecnologias e processos voltado para transformar grandes volumes de dados brutos em informações relevantes e acionáveis. Por meio de ferramentas analíticas, visualização de dados e modelos de processamento, o BI permite identificar padrões, tendências e indicadores-chave de desempenho, oferecendo suporte direto aos níveis estratégico, tático e operacional das organizações. Mais do que apenas analisar números, o BI fortalece a capacidade das empresas de antecipar cenários, otimizar recursos, melhorar processos internos e sustentar a tomada de decisões baseada em evidências.</p>
+        <div class="quote-box">
+          <p>"Empresas orientadas a dados têm maior capacidade de responder rapidamente a mudanças do mercado e melhorar a eficiência."</p>
+          <span>— Laudon & Laudon (2021)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="header-left">
+        <div class="purple-bar medium"></div>
+        <h1>GOVERNANÇA & <span class="text-purple">ARQUITETURA</span></h1>
+      </div>
+      <div class="grid-2 mt-50">
+        <div class="col-text">
+          <div class="item-block">
+            <h4><i class="fas fa-balance-scale"></i> Governança de Dados</h4>
+            <p>Estabelece as políticas e padrões que garantem a alta qualidade, integridade e confiabilidade das informações.</p>
+          </div>
+          <div class="item-block">
+            <h4><i class="fas fa-user-shield"></i> Segurança e Conformidade</h4>
+            <p>Implementa controles rigorosos de acesso e proteção de dados sensíveis (LGPD).</p>
+          </div>
+        </div>
+        <div class="col-text">
+          <div class="item-block">
+            <h4><i class="fas fa-sitemap"></i> Estrutura e Integração</h4>
+            <p>Define como os dados são coletados, armazenados e integrados (Data Lakes e Warehouses).</p>
+          </div>
+          <div class="item-block">
+            <h4><i class="fas fa-cubes"></i> Modelagem e Organização</h4>
+            <p>Organiza os dados de forma lógica (ex: modelagem dimensional) para facilitar o consumo por ferramentas de BI.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="niveis" class="section bg-darker">
+    <div class="container">
+      <div class="header-left">
+        <div class="purple-bar medium"></div>
+        <h1>NÍVEIS<br>DECISÓRIOS</h1>
+      </div>
+      <div class="grid-3 mt-50">
+        <div class="card-level">
+          <div class="number-circle">1</div>
+          <h3>OPERACIONAL</h3>
+          <p>Foco nas decisões do <strong>dia a dia</strong> visando eficiência e correção imediata.</p>
+          <div class="example"><i class="fas fa-shipping-fast"></i> Monitoramento em tempo real.</div>
+        </div>
+        <div class="card-level">
+          <div class="number-circle">2</div>
+          <h3>TÁTICO</h3>
+          <p>Decisões de <strong>médio prazo</strong> focadas na gestão de recursos e metas.</p>
+          <div class="example"><i class="fas fa-route"></i> Planejamento de rotas.</div>
+        </div>
+        <div class="card-level">
+          <div class="number-circle">3</div>
+          <h3>ESTRATÉGICO</h3>
+          <p>Decisões de <strong>longo prazo</strong> que definem o rumo da organização.</p>
+          <div class="example"><i class="fas fa-chart-line"></i> Expansão para novos hubs.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cenario" class="section">
+    <div class="container grid-2 align-center">
+      <div class="text-content">
+        <div class="header-left">
+          <div class="purple-bar medium"></div>
+          <h1>CENÁRIO<br>FASTSHIP</h1>
+        </div>
+        <p class="mt-20">A <strong>FastShip</strong> atua no transporte e distribuição de mercadorias em âmbito nacional, conectando regiões com agilidade.</p>
+        <p class="mt-20">Para sustentar nosso crescimento, implementamos uma estratégia de <strong>BI</strong> integrada à Governança, assegurando decisões baseadas em dados confiáveis.</p>
+      </div>
+      <div class="image-container">
+        <img src="https://page.gensparksite.com/slides_images/21f33f09db9f2cd1d5c220d4cc498cb6.webp" alt="Frota FastShip" class="img-frame" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-darker">
+    <div class="container grid-2-bias-left">
+      <div class="text-content">
+        <div class="header-left">
+          <div class="purple-bar medium"></div>
+          <h1>SUPORTE<br>DECISÓRIO</h1>
+        </div>
+        <p class="mt-20">Integração do BI para transformar dados brutos em ações concretas em todos os níveis.</p>
+      </div>
+      <div class="table-wrapper">
+        <div class="custom-table">
+          <div class="t-row header">
+            <div>Nível</div>
+            <div>Aplicação</div>
+            <div>Benefício</div>
+          </div>
+          <div class="t-row">
+            <div class="highlight"><i class="fas fa-cogs"></i> Operacional</div>
+            <div>GPS/Rastreio</div>
+            <div>Intervenção ágil</div>
+          </div>
+          <div class="t-row">
+            <div class="highlight"><i class="fas fa-route"></i> Tático</div>
+            <div>Alocação</div>
+            <div>Redução custos</div>
+          </div>
+          <div class="t-row">
+            <div class="highlight"><i class="fas fa-chess-king"></i> Estratégico</div>
+            <div>Expansão</div>
+            <div>Decisão precisa</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container border-box">
+      <div class="kpi-left">
+        <h2>MÉTRICAS</h2>
+        <h2 class="text-purple big">ESSENCIAIS</h2>
+        <p>Indicadores fundamentais.</p>
+      </div>
+      <div class="kpi-right">
+        <div class="kpi-item">
+          <h4><i class="fas fa-clock"></i> OTD (On-Time Delivery)</h4>
+          <div class="formula">(Entregas no prazo ÷ Total) × 100</div>
+        </div>
+        <div class="kpi-item">
+          <h4><i class="fas fa-money-bill-wave"></i> Custo Médio</h4>
+          <div class="formula">Custos totais ÷ Total de entregas</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-dark">
+    <div class="container grid-2">
+      <div class="text-content">
+        <div class="header-left">
+          <div class="purple-bar medium"></div>
+          <h1>FERRAMENTAS<br>DE BI</h1>
+        </div>
+        <ul class="tools-list mt-20">
+          <li><i class="fas fa-chart-bar"></i>
+            <div><strong>Power BI:</strong> Dashboards interativos.</div>
+          </li>
+          <li><i class="fas fa-table"></i>
+            <div><strong>Tableau:</strong> Análises multidimensionais.</div>
+          </li>
+          <li><i class="fas fa-network-wired"></i>
+            <div><strong>Integração:</strong> Conectividade TMS e WMS.</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="dashboards" class="section bg-darker">
+    <div class="container">
+
+      <div class="dash-wrapper">
+        <div class="header-left mb-20">
+          <div class="purple-bar small"></div>
+          <h2>DASHBOARD OPERACIONAL</h2>
+        </div>
+        <div class="dash-grid-op">
+          <div class="sidebar-metrics">
+            <div class="metric-card"><span>OTD</span> <strong>92%</strong></div>
+            <div class="metric-card"><span>Custo</span> <strong>R$ 120</strong></div>
+          </div>
+          <div class="chart-area">
+            <h5>Volume por Hora</h5>
+            <div class="chart-box"><canvas id="deliveriesChart"></canvas></div>
+          </div>
+          <div class="table-area">
+            <h5>Pedidos Recentes</h5>
+            <div class="table-scroll">
+              <table class="status-table">
+                <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>Status</th>
+                    <th>Prioridade</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#8921</td>
+                    <td><span class="badge late">Atrasado</span></td>
+                    <td class="red">Alta</td>
+                  </tr>
+                  <tr>
+                    <td>#8922</td>
+                    <td><span class="badge ok">Entregue</span></td>
+                    <td class="yellow">Média</td>
+                  </tr>
+                  <tr>
+                    <td>#8923</td>
+                    <td><span class="badge route">Rota</span></td>
+                    <td class="red">Alta</td>
+                  </tr>
+                  <tr>
+                    <td>#8924</td>
+                    <td><span class="badge route">Rota</span></td>
+                    <td class="green">Baixa</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dash-wrapper mt-50">
+        <div class="header-left mb-20">
+          <div class="purple-bar small"></div>
+          <h2>DASHBOARD TÁTICO</h2>
+        </div>
+        <div class="dash-grid-split">
+          <div class="insight-sidebar">
+            <div class="metric-highlight">
+              <small>Eficiência Frota</small>
+              <strong>91%</strong>
+            </div>
+            <div class="insight-box">
+              <h4><i class="fas fa-lightbulb"></i> Insight</h4>
+              <p>Caminhão 02 (SP-MG) abaixo da média (88%). Revisão recomendada.</p>
+            </div>
+          </div>
+          <div class="chart-wide">
+            <div class="chart-box"><canvas id="tacticalChart"></canvas></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dash-wrapper mt-50">
+        <div class="header-left mb-20">
+          <div class="purple-bar small"></div>
+          <h2>DASHBOARD ESTRATÉGICO</h2>
+        </div>
+        <div class="dash-grid-split">
+          <div class="insight-sidebar">
+            <p class="desc-text">Análise macro da demanda logística por região.</p>
+            <div class="insight-box">
+              <h4><i class="fas fa-chess-board"></i> Estratégia</h4>
+              <p>Alta concentração no Sudeste. <strong>Novo Hub</strong> recomendado até 2025.</p>
+            </div>
+          </div>
+          <div class="chart-wide">
+            <div class="chart-box"><canvas id="demandChart"></canvas></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section conclusion-bg">
+    <div class="container flex-row-responsive">
+      <div class="conclusion-left">
+        <h3>VISÃO</h3>
+        <h1>CONCLUSIVA</h1>
+      </div>
+      <div class="divider-purple-responsive"></div>
+      <div class="conclusion-right">
+        <p>O BI transforma dados brutos em <strong>decisões estratégicas</strong>. A integração com a <strong>Governança</strong> garante qualidade e fluidez da informação, resultando em vantagem competitiva.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-dark footer-ref">
+    <div class="container grid-2 align-start">
+      <div class="ref-title-box">
+        <h1>REFERÊNCIAS</h1>
+        <div class="purple-underline"></div>
+      </div>
+      <div class="ref-list">
+        <div class="ref-item">
+          <div class="icon-circle"><i class="fas fa-book"></i></div>
+          <p><strong>Laudon, K. C. (2021)</strong> Sistemas de Informação Gerenciais. 16ª ed.</p>
+        </div>
+        <div class="ref-item">
+          <div class="icon-circle"><i class="fas fa-database"></i></div>
+          <p><strong>Turban, E. et al. (2011)</strong> Business Intelligence.</p>
+        </div>
+        <div class="ref-item">
+          <div class="icon-circle"><i class="fas fa-layer-group"></i></div>
+          <p><strong>Kimball, R. (2013)</strong> The Data Warehouse Toolkit.</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-logo">FASTSHIP LOGISTICS</div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
